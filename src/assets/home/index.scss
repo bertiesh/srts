@@ -1,0 +1,13 @@
+.discussion-box {
+    height: calc(100% - 41px);
+     .load {
+       width: 100%;
+       height: 40px;
+       background: url(@/assets/loging.gif);
+       background-size: 400px;
+       background-position: 120px -125px;
+     }
+     .unload {
+       padding-bottom: 25px;
+     }
+   }
