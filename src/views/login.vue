@@ -1,7 +1,5 @@
 <template>
   <div class="rebgbox">
-<!-- <Loginpage v-if="islogin&&!activate" @islogin='closelogin' @activate='close'/>
-<Register v-if="!islogin||activate" @islogin="closeregister" :activate="activate"/> -->
 <router-view />
   </div>
 </template>
